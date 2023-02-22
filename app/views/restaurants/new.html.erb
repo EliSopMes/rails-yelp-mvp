@@ -1,0 +1,22 @@
+<h2>Add new restaurant</h2>
+
+<%= simple_form_for(@restaurant) do |f| %>
+  <%= f.label :name %>
+  <br>
+  <%= f.text_field :name, class: "form" %>
+  <br>
+  <%= f.label :category %>
+  <br>
+  <%= f.text_field :category, class: "form" %>
+  <br>
+  <%= f.label :address %>
+  <br>
+  <%= f.text_field :address, class: "form" %>
+  <br>
+  <%= f.label :phone_number %>
+  <br>
+  <%= f.text_field :phone_number, class: "form" %>
+  <br>
+  <br>
+  <%= f.submit "Submit restaurant", class: "btn btn-primary"%>
+<% end %>
