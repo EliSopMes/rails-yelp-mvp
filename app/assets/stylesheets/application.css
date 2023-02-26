@@ -17,16 +17,10 @@ body {
   font-size: 20px;
 }
 
-
  a {
   text-decoration: none;
  }
 
- li {
-  list-style-type: none;
-  margin-bottom: 19px;
-  font-size: 20px;
- }
 
  .form {
   width: 400px;
